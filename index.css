@@ -1,5 +1,5 @@
 
-    /* General Reset */
+
     body, html {
       margin: 0;
       padding: 0;
@@ -8,7 +8,7 @@
       overflow-x: hidden;
     }
 
-    /* Header Styling */
+   
     .header {
       display: flex;
       justify-content:space-between;
@@ -66,7 +66,6 @@
       font-size: 1.2rem;
     }
 
-    /* Sidebar Styling */
     .sidebar {
       position: fixed;
       top: 0;
@@ -79,7 +78,7 @@
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
       z-index: 1000;
       overflow: hidden;
-      padding-top: 60px; /* Offset for header */
+      padding-top: 60px;
     }
 
     .sidebar.open {
@@ -122,7 +121,7 @@
       font-size: 1rem;
     }
 
-    /* Toggle Button Styling */
+   
     .toggle-btn {
       position: fixed;
       top: 15px;
@@ -143,9 +142,9 @@
       background-color: #f0f0f0;
     }
 
-    /* Content Placeholder for Testing */
+ 
     .content {
-      margin-top: 80px; /* Offset for header */
+      margin-top: 80px;
       padding: 20px;
     }
     body, html {
@@ -156,7 +155,7 @@
         overflow-x: hidden;
       }
   
-      /* Header Styling */
+      
       .header {
         display: flex;
         justify-content: space-between;
@@ -177,7 +176,6 @@
         letter-spacing: 2px;
       }
   
-      /* Sidebar Styling */
       .sidebar {
         position: fixed;
         top: 0;
@@ -202,7 +200,7 @@
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
         z-index: 1000;
         overflow: hidden;
-        padding-top: 60px; /* Offset for header */
+        padding-top: 60px; 
       }
   
       .sidebar.open {
@@ -257,7 +255,6 @@
         font-size: 1rem;
       }
   
-      /* Toggle Button Styling */
       .toggle-btn {
         position: fixed;
         top: 15px;
@@ -278,15 +275,14 @@
         background-color: #f0f0f0;
       }
   
-      /* Content Placeholder for Testing */
+      
       .content {
-        margin-top: 80px; /* Offset for header */
+        margin-top: 80px; 
         padding: 20px;
       }
-        /* General Reset */
-    
+     
   
-      /* Main Section Styling */
+    
       .main-section {
         display: flex;
         flex-wrap: wrap;
@@ -299,8 +295,7 @@
       .card {
         width: 480px;
         height: 580px;
-        background-color: #000; /* Black background */
-        color: white;
+        background-color: #000; 
         border-radius: 15px;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
         overflow: hidden;
@@ -308,9 +303,9 @@
         flex-direction: column;
       }
   
-      /* Upper Section */
+     
       .card-upper {
-        background-color: black; /* Dark black */
+        background-color: black; 
         padding: 20px;
         display: flex;
         justify-content: space-between;
@@ -337,7 +332,6 @@
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
       }
   
-      /* Lower Section */
       .card-lower {
         padding: 20px;
         flex-grow: 1;
